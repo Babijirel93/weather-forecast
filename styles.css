@@ -1,0 +1,125 @@
+body {
+  padding-top: 40px;
+  font-family: "Roboto", sans-serif;
+  background: #e7dbf9;
+}
+
+.card {
+  padding: 40px 40px 20px 40px;
+  max-width: 700px;
+  min-width: 700px;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+
+#search-form {
+  padding-bottom: 40px;
+  font-size: 18px;
+}
+
+#search-text-input {
+  padding: 10px 20px;
+  background: #f9f7fe;
+  border: 1px solid #e7dbf9;
+  border-radius: 6px;
+  width: 480px;
+}
+
+#search-button {
+  padding: 10px 30px;
+  background: #885df1;
+  color: white;
+  margin-left: 12px;
+  border-radius: 6px;
+  border: none;
+  font-weight: 400;
+}
+
+#search-button:hover {
+  background: #6d15f2;
+  transition: all 200ms ease-in-out;
+}
+
+.overview {
+  height: 280px;
+}
+
+.row {
+  height: 110px;
+}
+
+#main-temperature {
+  font-size: 80px;
+  font-weight: 500;
+  position: relative;
+  float: left;
+}
+
+.main-temperature-unit {
+  font-size: 36px;
+  font-weight: 600;
+  position: relative;
+  float: left;
+  bottom: -10px;
+  right: -2px;
+}
+
+.main-image {
+  position: relative;
+  float: left;
+  bottom: 18px;
+  right: -10px;
+}
+
+ul {
+  list-style: none;
+  line-height: 2;
+  padding-top: 20px;
+  columns: 2;
+}
+
+#weather-description:first-letter {
+  text-transform: capitalize;
+}
+
+#city {
+  font-size: 45px;
+  font-weight: 600;
+  padding-bottom: 10px;
+  text-transform: capitalizeFirstLetter;
+}
+
+#date {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.forecast-day,
+.forecast-max-temperature,
+.forecast-min-temperature {
+  font-weight: 500;
+  line-height: 2;
+  text-align: center;
+  font-size: 16px;
+}
+
+.forecast-image {
+  text-align: center;
+}
+
+.forecast-min-temperature {
+  opacity: 0.5;
+}
+
+.footer-signature {
+  text-align: right;
+  color: #676768;
+  font-size: 12px;
+  padding: 80px 0px 10px 0px;
+  font-weight: 550;
+}
+
+#github-link {
+  color: #6d15f2;
+  text-decoration: none;
+}
